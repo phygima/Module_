@@ -144,7 +144,7 @@ int main() {
    int num_contacts = 0;
 
    do{
-    printf("\nPhone Book Menu:\n");
+        printf("\nPhone Book Menu:\n");
         printf("1. Add Contact\n");
         printf("2. Show Contacts\n");
         printf("3. Edit Contact\n");
