@@ -1,5 +1,10 @@
-#include "cmath.h"
+#include "add.h"
+#include "divide.h"
+#include "multiply.h"
+#include "subtract.h"
 #include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 
 typedef float (*operation)(float, float);
