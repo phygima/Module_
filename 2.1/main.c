@@ -15,7 +15,7 @@ int main() {
         printf("5. Exit\n");
         printf("Enter your choice: ");
         scanf(" %c", &choice);
-        getchar(); // Consume newline character
+        getchar(); 
 
         switch(choice) {
             case '1':

@@ -1,5 +1,6 @@
-calculator: main.c
-    gcc -o calculator main.c
+my_calc: main.c
+    gcc -c main.c cmath.c
+    gcc -o my_calc main.o cmath.o
 
 clean:
-    rm -f calculator
+    rm -f my_calc

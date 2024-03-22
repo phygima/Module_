@@ -50,7 +50,7 @@ void edit_contact(Contact *contacts, int count) {
     printf("Enter the index of the contact to edit (0-%d): ", count - 1);
     int index;
     scanf("%d", &index);
-    getchar();  // consume newline character
+    getchar();
 
     if (index < 0 || index >= count) {
         printf("Invalid index\n");
@@ -99,7 +99,7 @@ void delete_contact(Contact *contacts, int *count) {
     printf("Enter the index of the contact to delete (0-%d): ", *count - 1);
     int index;
     scanf("%d", &index);
-    getchar();  // consume newline character
+    getchar();  
 
     if (index < 0 || index >= *count) {
         printf("Invalid index\n");
