@@ -3,6 +3,9 @@
     "files.associations": {
         "stdio.h": "c",
         "contact.h": "c",
-        "personal_info.h": "c"
+        "personal_info.h": "c",
+        "stat.h": "c",
+        "cmath": "cpp",
+        "contact_info.h": "c"
     }
 }
