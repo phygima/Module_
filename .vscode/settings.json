@@ -6,6 +6,7 @@
         "personal_info.h": "c",
         "stat.h": "c",
         "cmath": "cpp",
-        "contact_info.h": "c"
+        "contact_info.h": "c",
+        "update_contact.h": "c"
     }
 }
