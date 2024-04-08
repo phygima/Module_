@@ -1,4 +1,4 @@
-#include <divide.h>
+#include "divide.h"
 
 float divide(float a, float b) {
     if (b != 0)
