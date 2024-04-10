@@ -73,7 +73,7 @@ mode_t letter_permissions(const char* permission_str) {
 }
 
 
-mode_t let_format(char* permission_str){
+mode_t let_format(const char* permission_str){
 
     mode_t permissions = 0;
     int x = 0;
@@ -116,7 +116,6 @@ while (permission_str[y] != '\0') {
                     // do nothing for adding permission
                     break;
                 case '=':
-                    // set permissions explicitly, clear existing ones first
                     permissions &= ~(S_IRUSR | S_IWUSR | S_IXUSR |
                                      S_IRGRP | S_IWGRP | S_IXGRP |
                                      S_IROTH | S_IWOTH | S_IXOTH);
