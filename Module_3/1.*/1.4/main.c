@@ -4,6 +4,9 @@
 #include <sys/wait.h>
 #include <string.h>
 
+#define MAX_COMMAND_LEN 100
+#define MAX_ARGS 10
+
 void print_prompt() {
     printf(">> ");
     fflush(stdout);
