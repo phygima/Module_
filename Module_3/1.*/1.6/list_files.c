@@ -1,8 +1,6 @@
 #include "list_files.h"
 
 
-//TO DO : realise command <cd>
-
 void list_files(const char *path) {
     DIR *dir;
     struct dirent *entry;
