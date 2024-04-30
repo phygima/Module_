@@ -35,7 +35,7 @@ int main(){
         if (strncmp(message.msg_text, "exit", 4) == 0) {
             message.msg_type = 255;
             msgsnd(msg_id, &message, sizeof(message), 0);
-            exit(0);
+            break;
         }
 
         message.msg_type = 1;

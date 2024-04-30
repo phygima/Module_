@@ -30,7 +30,7 @@ int main(){
         if (strncmp(message.msg_text, "exit", 4) == 0) {
             message.msg_type = 255;
             msgsnd(msg_id, &message, sizeof(message), 0);
-            exit(0);
+            break;
         }
 
         message.msg_type = 1;
@@ -38,7 +38,7 @@ int main(){
         msgrcv(msg_id, &message, sizeof(message), 0, 0);
 
         if(message.msg_type == 255)
-            exit(0);
+            break;
 
         printf("Get msg: %s", message.msg_text);
 
