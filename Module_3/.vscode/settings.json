@@ -3,6 +3,9 @@
         "unistd.h": "c",
         "stdio.h": "c",
         "time.h": "c",
-        "stat.h": "c"
+        "stat.h": "c",
+        "types.h": "c",
+        "fcntl.h": "c",
+        "mman.h": "c"
     }
 }
