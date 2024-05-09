@@ -71,7 +71,6 @@ int main() {
         perror("pthread_create failed");
         exit(EXIT_FAILURE);
     }
-
     pthread_join(tid, NULL);
     
     for (int i = 0; i < MAX_CLIENTS; i++) {

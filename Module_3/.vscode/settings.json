@@ -7,5 +7,6 @@
         "types.h": "c",
         "fcntl.h": "c",
         "mman.h": "c"
-    }
+    },
+    "cmake.configureOnOpen": false
 }
