@@ -13,5 +13,6 @@
         "dirent.h": "c",
         "test": "c",
         "global.h": "c"
-    }
+    },
+    "cmake.configureOnOpen": true
 }
