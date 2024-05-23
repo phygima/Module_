@@ -1,1 +1,0 @@
-savedcmd_/home/ubuntu/Module_/Module_4/lab1/Module.symvers :=  scripts/mod/modpost -M  -a      -o /home/ubuntu/Module_/Module_4/lab1/Module.symvers -T /home/ubuntu/Module_/Module_4/lab1/modules.order -i Module.symvers -e 
