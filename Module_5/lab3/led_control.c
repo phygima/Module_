@@ -12,8 +12,7 @@ MODULE_VERSION("0.1");
 
 static struct kobject *led_kobj;
 static int led_state = 0;
-
-// Прототипы функций
+ 
 static void update_leds(void);
 static void blink_leds(void);
 
@@ -33,34 +32,30 @@ static struct kobj_attribute led_attribute = __ATTR(led_control, 0664, led_show,
 
 static void update_leds(void)
 {
-    blink_leds(); // Мигание лампочек при изменении состояния
+    blink_leds(); 
 }
 
 static void blink_leds(void)
 {
     int i;
-    for (i = 0; i < 5; i++) // Мигаем 5 раз
-    {
-        // Зажигаем все лампочки
+    for (i = 0; i < 5; i++) 
+    { 
         pr_info("LEDs ON\n");
-        msleep(500); // Ждем 500 миллисекунд
-
-        // Гасим все лампочки
+        msleep(500); 
+ 
         pr_info("LEDs OFF\n");
-        msleep(500); // Ждем 500 миллисекунд
+        msleep(500);  
     }
 }
 
 static int __init led_control_init(void)
 {
     int error;
-
-    // Создаем директорию в /sys/kernel/
+ 
     led_kobj = kobject_create_and_add("led_control", kernel_kobj);
     if (!led_kobj)
         return -ENOMEM;
-
-    // Создаем файл атрибута в созданной директории
+ 
     error = sysfs_create_file(led_kobj, &led_attribute.attr);
     if (error) {
         kobject_put(led_kobj);
