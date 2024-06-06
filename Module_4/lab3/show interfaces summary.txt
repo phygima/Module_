@@ -1,0 +1,158 @@
+Switch-1
+
+vIOS-L2-01#show interfaces summary
+
+ *: interface is up
+ IHQ: pkts in input hold queue     IQD: pkts dropped from input queue
+ OHQ: pkts in output hold queue    OQD: pkts dropped from output queue
+ RXBS: rx rate (bits/sec)          RXPS: rx rate (pkts/sec)
+ TXBS: tx rate (bits/sec)          TXPS: tx rate (pkts/sec)
+ TRTL: throttle count
+
+  Interface                   IHQ       IQD       OHQ       OQD      RXBS      RXPS      TXBS      TXPS      TRTL
+-----------------------------------------------------------------------------------------------------------------
+* GigabitEthernet0/0            0         0         0         0      1000         2      2000         3         0
+* GigabitEthernet0/1            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/2            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/3            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/0            0         0         0         0      2000         4         0         0         0
+* GigabitEthernet1/1            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/2            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/3            0         0         0         0         0         0         0         0         0
+* GigabitEthernet2/0            0         0         0         0         0         2      1000         3         0
+* Port-channel2                 0         0         0         0      1000         2         0         0         0
+* Port-channel1                 0         0         0         0         0         1         0         0         0
+vIOS-L2-01#
+
+
+Switch-2
+
+vIOS-L2-01#show interfaces summary
+
+ *: interface is up
+ IHQ: pkts in input hold queue     IQD: pkts dropped from input queue
+ OHQ: pkts in output hold queue    OQD: pkts dropped from output queue
+ RXBS: rx rate (bits/sec)          RXPS: rx rate (pkts/sec)
+ TXBS: tx rate (bits/sec)          TXPS: tx rate (pkts/sec)
+ TRTL: throttle count
+
+  Interface                   IHQ       IQD       OHQ       OQD      RXBS      RXPS      TXBS      TXPS      TRTL
+-----------------------------------------------------------------------------------------------------------------
+* GigabitEthernet0/0            0         0         0         0      3000         6         0         0         0
+* GigabitEthernet0/1            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/2            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/3            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/0            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/1            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/2            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/3            0         0         0         0         0         0         0         0         0
+* GigabitEthernet2/0            0         0         0         0      1000         2         0         0         0
+  Port-channel2                 0         0         0         0         0         0         0         0         0
+* Port-channel1                 0         0         0         0      1000         3         0         0         0
+vIOS-L2-01#
+
+
+
+Switch-3
+
+
+vIOS-L2-01#show interfaces summary
+
+ *: interface is up
+ IHQ: pkts in input hold queue     IQD: pkts dropped from input queue
+ OHQ: pkts in output hold queue    OQD: pkts dropped from output queue
+ RXBS: rx rate (bits/sec)          RXPS: rx rate (pkts/sec)
+ TXBS: tx rate (bits/sec)          TXPS: tx rate (pkts/sec)
+ TRTL: throttle count
+
+  Interface                   IHQ       IQD       OHQ       OQD      RXBS      RXPS      TXBS      TXPS      TRTL
+-----------------------------------------------------------------------------------------------------------------
+* GigabitEthernet0/0            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/1            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/2            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/3            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/0            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/1            0         0         0         0         0         0         0         0         0
+  Port-channel1                 0         0         0         0         0         0         0         0         0
+vIOS-L2-01#
+
+
+
+Switch-4
+
+
+vIOS-L2-01#show interfaces summary
+
+ *: interface is up
+ IHQ: pkts in input hold queue     IQD: pkts dropped from input queue
+ OHQ: pkts in output hold queue    OQD: pkts dropped from output queue
+ RXBS: rx rate (bits/sec)          RXPS: rx rate (pkts/sec)
+ TXBS: tx rate (bits/sec)          TXPS: tx rate (pkts/sec)
+ TRTL: throttle count
+
+  Interface                   IHQ       IQD       OHQ       OQD      RXBS      RXPS      TXBS      TXPS      TRTL
+-----------------------------------------------------------------------------------------------------------------
+* GigabitEthernet0/0            0         0         0         0         0         1         0         0         0
+* GigabitEthernet0/1            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/2            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/3            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/0            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/1            0         0         0         0         0         0         0         0         0
+* Port-channel1                 0         0         0         0         0         0         0         0         0
+vIOS-L2-01#
+
+
+
+Switch-5
+
+vIOS-L2-01#show interfaces summary
+
+ *: interface is up
+ IHQ: pkts in input hold queue     IQD: pkts dropped from input queue
+ OHQ: pkts in output hold queue    OQD: pkts dropped from output queue
+ RXBS: rx rate (bits/sec)          RXPS: rx rate (pkts/sec)
+ TXBS: tx rate (bits/sec)          TXPS: tx rate (pkts/sec)
+ TRTL: throttle count
+
+  Interface                   IHQ       IQD       OHQ       OQD      RXBS      RXPS      TXBS      TXPS      TRTL
+-----------------------------------------------------------------------------------------------------------------
+* GigabitEthernet0/0            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/1            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/2            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/3            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/0            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/1            0         0         0         0         0         0         0         0         0
+  Port-channel1                 0         0         0         0         0         0         0         0         0
+vIOS-L2-01#
+
+
+
+the new output 
+
+
+vIOS-L2-01>show interfaces summary
+
+ *: interface is up
+ IHQ: pkts in input hold queue     IQD: pkts dropped from input queue
+ OHQ: pkts in output hold queue    OQD: pkts dropped from output queue
+ RXBS: rx rate (bits/sec)          RXPS: rx rate (pkts/sec)
+ TXBS: tx rate (bits/sec)          TXPS: tx rate (pkts/sec)
+ TRTL: throttle count
+
+  Interface                   IHQ       IQD       OHQ       OQD      RXBS      RXPS      TXBS      TXPS      TRTL
+-----------------------------------------------------------------------------------------------------------------
+* GigabitEthernet0/0            0         0         0         0      1000         2      2000         4         0
+* GigabitEthernet0/1            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/2            0         0         0         0         0         0         0         0         0
+* GigabitEthernet0/3            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/0            0         0         0         0      2000         4         0         0         0
+* GigabitEthernet1/1            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/2            0         0         0         0         0         0         0         0         0
+* GigabitEthernet1/3            0         0         0         0         0         0         0         0         0
+* GigabitEthernet2/0            0         0         0         0      1000         2      1000         2         0
+* Port-channel2                 0         0         0         0      1000         2         0         0         0
+* Port-channel1                 0         0         0         0         0         1         0         0         0
+vIOS-L2-01>
+(Switch-1)
+
+

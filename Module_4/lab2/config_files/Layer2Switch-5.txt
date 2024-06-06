@@ -1,0 +1,30 @@
+Building configuration...
+Compressed configuration from 5079 bytes to 1946 bytes[OK]
+vIOS-L2-01#
+*May 24 03:52:04.847: %GRUB-5-CONFIG_WRITING: GRUB configuration is being updated on disk. Please wait...
+*May 24 03:52:05.618: %GRUB-5-CONFIG_WRITTEN: GRUB configuration was written to disk successfully.
+vIOS-L2-01#sh run
+Building configuration...
+
+Current configuration : 5079 bytes
+!
+! Last configuration change at 03:18:59 UTC Fri May 24 2024
+!
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+service compress-config
+!
+hostname vIOS-L2-01
+!
+boot-start-marker
+boot-end-marker
+!
+!
+!
+no aaa new-model
+!
+!
+!
+!
